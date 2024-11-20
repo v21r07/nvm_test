@@ -1,0 +1,2 @@
+---OS assiduite (manampy var ao am bas de donnée ftsn dia manisy sary mtovy nom amle entité ao am db fa raha sty izany tsy mseo le sary)
+---

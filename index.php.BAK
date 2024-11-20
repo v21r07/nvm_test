@@ -1,0 +1,9 @@
+<?php
+define('ROOT', dirname(__FILE__));
+$self = htmlspecialchars($_SERVER['PHP_SELF']);
+define('URL', str_replace("index.php", "", (isset($_SERVER['HTTPS']) ? "https" : "http") .
+    "://$_SERVER[HTTP_HOST]$self"));
+
+require_once('models/Controller.php');
+require_once('models/_Controller.php');
+require('controllers/router.php');
