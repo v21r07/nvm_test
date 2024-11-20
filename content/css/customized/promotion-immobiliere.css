@@ -1,0 +1,240 @@
+main{
+	background-color: #fff!important;
+}
+.hidden {
+  opacity: 0;
+}
+
+
+/**PREMIERE SECTION*/
+section{
+	min-height: 100vh!important;
+}
+.devise-container{
+	margin-top: -40%;
+}
+.devise-content{
+	padding-right: 50px!important;
+	background-color: #ffffffb9;
+}
+	.btn-more-info {
+  animation: wiggle 2s linear infinite;
+}
+/* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+.devise{
+	color: #212529;
+	font-size: 40px;
+	font-weight: 600;
+}
+.sous-devise{
+	color: black;
+	font-size: 20px;
+}
+
+.btn-more-info {
+  left: calc(50% - 3em);
+  top: calc(50% - 2em);
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 19px;
+	padding: 10px;
+  transform-origin: 50% 5em;
+	background-color: #0A2639;
+}
+
+
+
+/*DEUXIEME SECTION*/
+.qsn-title{
+	border-bottom: #0A2639;
+}
+.divider{
+	width: 50%;
+	border-bottom: 6px solid#E0C35F;
+}
+.second-section{
+	background-color: #fff;
+	padding: 0!important;
+	margin-top: 10%!important;
+}
+.qui-somme-nous-container
+{
+	justify-content: center;
+	padding:20px;
+}
+.qui-somme-nous-content
+{
+	border-radius: 50px;
+	padding:50px;
+	color:#212529!important;
+}
+.qsn-image-container{
+	padding-left: 130px!important;
+}
+.qsn-image{border-radius: 20px;gap: 900px;cursor: pointer;}
+.qsn-image1{
+	background: url('../../img/qsn-image1.jpg') center/cover no-repeat;
+	width: 160px;height: 300px;
+}
+/*.qsn-image1:hover{
+	width: 170px;height: 310px;
+}*/
+.qsn-image2{
+	background: url('../../img/qsn-image2.jpg') center/cover no-repeat;
+	margin-left: 20px;
+	width: 280px;height: 300px;
+}
+/*
+.qsn-image2:hover{
+	width: 290px;height: 310px;
+}*/
+.qsn-image3{
+	background: url('../../img/qsn-image3.jpg') center/cover no-repeat;
+	width: 280px;height: 300px;
+}
+/*
+.qsn-image3:hover{
+	width: 290px;height: 310px;
+}*/
+.qsn-image4{
+	background: url('../../img/qsn-image4.PNG') center/cover no-repeat;
+	margin-left: 20px;
+	width: 160px;height: 300px;
+}
+/*
+.qsn-image4:hover{
+	width: 170px;height: 310px;
+}
+*/
+
+/*TROISIEME SECTION*/
+.third-section{
+	background-color: #fff;
+}
+.third-section-title{
+	margin-top: 50px!important;
+	justify-content: center;
+	text-align: center;
+	color: #212529;
+}
+.divider-pnfc-container{
+	display: flex;
+	justify-content: center!important;
+	align-items: center!important;
+}
+.divider-pnfc{
+	width: 50%!important;
+	border-bottom: 6px solid#E0C35F;
+}
+.carousel-container{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.carousel-caption{
+	background-color: #000000b6;
+	border-radius: 12px;
+	padding: 20px;
+}
+
+/*QUATRIEME SECTION*/
+.four-section{
+	background-color: #fff;
+}
+.four-section-title{
+	margin-top: 50px!important;
+	justify-content: center;
+	text-align: center;
+}
+.divider-pnfc-container{
+	display: flex;
+	justify-content: center!important;
+	align-items: center!important;
+}
+.divider-pnfc{
+	width: 50%!important;
+	border-bottom: 6px solid#E0C35F;
+}
+
+
+
+/**CINQUIEME SECTION*/
+.five-section-title{
+	margin-top: 50px!important;
+	justify-content: center;
+	text-align: center;
+	color: #212529;
+}
+.btn-secondary{
+	border: 5px solid #00000000;
+	background-color: #E0C35F;
+	color: #212529;
+	padding: 5px 30px!important;
+}
+.btn-secondary:hover{
+	border: 5px solid #E0C35F;
+	background-color: transparent;
+	color: #E0C35F;
+}
+
+/**SIXIEME SECTION*/
+.sixth-section{
+	background-color: #0A2639;
+}
+.sixth-section-title{
+	margin-top: 50px!important;
+	justify-content: center;
+	text-align: center;
+	color: #ffffff;
+}
+
+/**SEPTIEME SECTION*/
+.seventh-section-title{
+	margin-top: 50px!important;
+	justify-content: center;
+	text-align: center;
+	color: #0A2639;
+}
+.seventh-content-maps{
+	min-height: 100vh;
+	padding: 2rem 8.5rem;
+}
+#maps{
+	overflow: hidden;
+	border-radius: 20px!important;
+}
+
+/**HUITIEME SECTION*/
+.heigth-section{
+	background-color: #0A2639;
+}
+.heigth-section-title{
+	margin-top: 50px!important;
+	justify-content: center;
+	text-align: center;
+	color: #ffffff;
+}

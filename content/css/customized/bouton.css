@@ -1,0 +1,52 @@
+.button-spec-1 {
+  display: inline-block;
+  background: #0076BD;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+}
+.button-spec-1:hover {
+  box-shadow: 0px 37px 20px -20px rgba(46, 148, 52, 0.2);
+  border: 3px solid #0076BD;
+}
+
+
+.button-spec-2 {
+  display: inline-block;
+  background: #BD150B;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+}
+.button-spec-2:hover {
+  box-shadow: 0px 37px 20px -20px rgba(46, 148, 52, 0.2);
+  border: 3px solid #BD150B;
+}
+
+
+.button-spec-3 {
+  display: inline-block;
+  background: #79DD09;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+}
+.button-spec-3:hover {
+  box-shadow: 0px 37px 20px -20px rgba(46, 148, 52, 0.2);
+  border: 3px solid #79DD09;
+}
